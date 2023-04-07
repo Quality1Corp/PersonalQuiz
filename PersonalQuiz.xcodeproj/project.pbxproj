@@ -56,9 +56,10 @@
 		662DD5B029DEC48300F97A2D /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				66DA2E6C29E073DD00DDAE39 /* Models */,
 				66DA2E6729E070E500DDAE39 /* App */,
 				66DA2E6929E0710E00DDAE39 /* ViewControllers */,
-				66DA2E6829E070F900DDAE39 /* Storyboard */,
+				66DA2E6829E070F900DDAE39 /* Storyboards */,
 				66DA2E6A29E0712600DDAE39 /* Resources */,
 			);
 			path = PersonalQuiz;
@@ -74,13 +75,13 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		66DA2E6829E070F900DDAE39 /* Storyboard */ = {
+		66DA2E6829E070F900DDAE39 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				662DD5B729DEC48300F97A2D /* Main.storyboard */,
 				662DD5BC29DEC48400F97A2D /* LaunchScreen.storyboard */,
 			);
-			path = Storyboard;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		66DA2E6929E0710E00DDAE39 /* ViewControllers */ = {
@@ -97,6 +98,13 @@
 				662DD5BA29DEC48400F97A2D /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		66DA2E6C29E073DD00DDAE39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
