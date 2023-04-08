@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		662DD5B229DEC48300F97A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662DD5B129DEC48300F97A2D /* AppDelegate.swift */; };
 		662DD5B429DEC48300F97A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662DD5B329DEC48300F97A2D /* SceneDelegate.swift */; };
-		662DD5B629DEC48300F97A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662DD5B529DEC48300F97A2D /* ViewController.swift */; };
+		662DD5B629DEC48300F97A2D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662DD5B529DEC48300F97A2D /* QuestionViewController.swift */; };
 		662DD5B929DEC48300F97A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DD5B729DEC48300F97A2D /* Main.storyboard */; };
 		662DD5BB29DEC48400F97A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662DD5BA29DEC48400F97A2D /* Assets.xcassets */; };
 		662DD5BE29DEC48400F97A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662DD5BC29DEC48400F97A2D /* LaunchScreen.storyboard */; };
+		663B0D2D29E1C33200B8D49E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B0D2C29E1C33200B8D49E /* ResultViewController.swift */; };
 		66DA2E6E29E0756E00DDAE39 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA2E6D29E0756E00DDAE39 /* Question.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +21,12 @@
 		662DD5AE29DEC48300F97A2D /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662DD5B129DEC48300F97A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		662DD5B329DEC48300F97A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		662DD5B529DEC48300F97A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662DD5B529DEC48300F97A2D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		662DD5B829DEC48300F97A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662DD5BA29DEC48400F97A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662DD5BD29DEC48400F97A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662DD5BF29DEC48400F97A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663B0D2C29E1C33200B8D49E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		66DA2E6D29E0756E00DDAE39 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +91,8 @@
 		66DA2E6929E0710E00DDAE39 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				662DD5B529DEC48300F97A2D /* ViewController.swift */,
+				662DD5B529DEC48300F97A2D /* QuestionViewController.swift */,
+				663B0D2C29E1C33200B8D49E /* ResultViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -181,7 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662DD5B629DEC48300F97A2D /* ViewController.swift in Sources */,
+				663B0D2D29E1C33200B8D49E /* ResultViewController.swift in Sources */,
+				662DD5B629DEC48300F97A2D /* QuestionViewController.swift in Sources */,
 				66DA2E6E29E0756E00DDAE39 /* Question.swift in Sources */,
 				662DD5B229DEC48300F97A2D /* AppDelegate.swift in Sources */,
 				662DD5B429DEC48300F97A2D /* SceneDelegate.swift in Sources */,
